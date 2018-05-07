@@ -1,0 +1,17 @@
+<a href="{{ url }}" class="c-block-tile c-block-tile--{{ styleModifier }}">
+	
+	<a href="{{ url }}" class="c-block-media c-block-media--{{ styleModifier }}">
+
+	<div class="c-block-media__media">
+		{{> atoms-square:c-block-media__img }}
+	</div>
+
+	<div class="c-block-media__body">
+		<h2 class="c-block-media__headline">Item Title</h2>
+	</div><!-- end c-block-media__body -->
+</a><!-- end c-block-media -->
+
+{{# overlay }}
+	{{> molecules-overlay }}
+{{/ overlay}}
+

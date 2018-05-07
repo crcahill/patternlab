@@ -1,0 +1,20 @@
+{{> organisms-header }}
+<main role="main">
+
+
+	<div class="l l--two-col">
+		<div class="l-main">
+			{{# latestPosts }}
+			{{> organisms-section-media-list }}
+			{{/ latestPosts }}
+		</div><!--end .l-main-->
+
+		<div class="l-sidebar">
+			<h2>Similar Products</h2>
+			{{# featuredPosts }}
+			{{> organisms-section-media-list }}
+			{{/ featuredPosts }}
+		</div><!--end .l-sidebar-->
+	</div><!--end .l-two-col-->
+</main>
+{{> organisms-footer }}
